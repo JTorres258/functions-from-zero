@@ -7,7 +7,7 @@ install:
 
 # Applying some tests
 test:
-	python -m pytest -vv test_hello.py
+	python -m pytest -vv tset_*.py
 
 # Verifying formatting
 format:
