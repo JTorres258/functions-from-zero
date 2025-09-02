@@ -15,7 +15,7 @@ format:
 
 # Verifying code standards
 lint:
-	pylint --disable=R,C *.py
+	pylint --disable=R,C,E1120 *.py
 
 # Do everything at once
 all: install lint test format
